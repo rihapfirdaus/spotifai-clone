@@ -1,0 +1,15 @@
+.arrowNav {
+    -fx-background-color : rgba(000, 0, 0, 0.8);
+    -fx-background-radius: 100%;
+    -fx-min-height: 36px;
+    -fx-min-width: 36px;
+}
+.controlBtn{
+    -fx-background-color: transparent;
+}
+.playBtn{
+    -fx-background-color: #fff;
+    -fx-background-radius: 100%;
+    -fx-min-height: 52px;
+    -fx-min-width: 52px;
+}

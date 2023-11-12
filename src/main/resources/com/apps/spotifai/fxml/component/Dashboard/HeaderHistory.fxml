@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<HBox alignment="CENTER" prefHeight="59.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontIcon iconColor="white" iconLiteral="fas-history" iconSize="20" />
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" History" wrappingWidth="206.328125">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </Text>
+      <Hyperlink text="show more..">
+         <HBox.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </HBox.margin>
+      </Hyperlink>
+   </children>
+   <padding>
+      <Insets bottom="12.0" left="24.0" right="24.0" top="12.0" />
+   </padding>
+</HBox>

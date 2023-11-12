@@ -1,0 +1,50 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'org.openjfx.javafxplugin' version '0.0.10'
+	id 'org.springframework.boot' version '3.1.1'
+	id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.apps'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+application {
+	mainModule = 'com.apps.spotifai'
+	mainClass = 'com.apps.spotifai.StockUiApplication'
+}
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+javafx {
+	version = '17.0.1'
+	modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+	implementation 'org.kordamp.ikonli:ikonli-javafx:12.3.1'
+	implementation 'org.kordamp.ikonli:ikonli-fontawesome5-pack:12.3.1'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.14.2'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.1'
+	implementation 'org.openjfx:javafx-controls:17.0.1:win'
+	implementation 'org.openjfx:javafx-media:17.0.1:win'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+

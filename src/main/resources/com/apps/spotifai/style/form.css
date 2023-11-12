@@ -1,0 +1,8 @@
+TextField, PasswordField, DatePicker {
+    -fx-background-radius: 20px;
+}
+
+#myButton {
+    -fx-background-radius: 20px;
+    -fx-background-color: green;
+}

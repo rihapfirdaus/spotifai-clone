@@ -1,0 +1,35 @@
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane{
+   -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 8px;
+}
+
+.scroll-pane .scroll-bar:horizontal {
+    -fx-pref-height: 8px;
+}
+
+.scroll-pane .scroll-bar-thumb {
+    -fx-background-color: #000;
+    -fx-background-radius: 4px;
+}
+
+.scroll-pane .scroll-bar-thumb:hover {
+    -fx-background-color: #000;
+}
+
+.scroll-pane .scroll-bar-track {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar-track:vertical,
+.scroll-pane .scroll-bar-track:horizontal {
+    -fx-background-radius: 4px;
+}

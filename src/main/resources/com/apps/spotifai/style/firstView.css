@@ -1,0 +1,14 @@
+.myAnchorPane {
+    -fx-background-image: url('../img/pexels-chad-kirchoff-952437.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.myVBox {
+    -fx-background-color: rgba(000, 0, 0, 0.8);
+}
+.hidden {
+    -fx-visibility: hidden;
+    -fx-cursor: none;
+    -fx-translate-x: -9999;
+    -fx-translate-y: -9999;
+}

@@ -1,0 +1,10 @@
+.contentCard{
+    -fx-background-color: #242424;
+    -fx-background-radius: 10px;
+}
+.cardBtn{
+    -fx-background-color: green;
+    -fx-background-radius: 100%;
+    -fx-min-width: 65px;
+    -fx-min-height: 65px;
+}

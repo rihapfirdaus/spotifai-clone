@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" prefHeight="100.0" prefWidth="395.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.apps.spotifai.view.SwitchScene.SwitchToSignup">
+      <children>
+          <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="don't have an account?" />
+          <Hyperlink onAction="#switchScene" text="Sign Up" />
+      </children>
+  </HBox>
